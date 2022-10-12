@@ -6,4 +6,11 @@ public class Geometry {
         length=Math.sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1));
         System.out.println("distance between"+"("+x1+","+y1+"),"+"("+x2+","+y2+")="+length);
     }
+
+    public static void Equals(Integer x1, Integer y1 , Integer x2, Integer y2) {
+        boolean result = x1.equals(y1);
+        System.out.println("Line is " + result);
+        boolean result1 = x2.equals(y2);
+        System.out.println("Line is " +result1);
+    }
 }
