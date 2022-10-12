@@ -9,6 +9,7 @@ public class LineComparision extends Geometry {
         Integer y1= sc.nextInt();
         Integer x2= sc.nextInt();
         Integer y2= sc.nextInt();
-        Geometry.Equals(x1, y1, x2, y2);
+        Geometry.Equals(x1,y1,x2,y2);
+        Geometry.Compare(x1,y1,x2,y2);
     }
 }

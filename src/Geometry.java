@@ -13,4 +13,11 @@ public class Geometry {
         boolean result1 = x2.equals(y2);
         System.out.println("Line is " +result1);
     }
+
+    public static void Compare(Integer x1, Integer y1 , Integer x2, Integer y2) {
+        int result = x1.compareTo(y1);
+        System.out.println("Line is " + result);
+        int result1 = x2.compareTo(y2);
+        System.out.println("Line is " +result1);
+    }
 }
